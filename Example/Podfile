@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'YaoLibPod_Example' do
+  pod 'YaoLibPod', :path => '../'
+
+  target 'YaoLibPod_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
